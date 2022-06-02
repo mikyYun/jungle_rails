@@ -1,6 +1,7 @@
-class AboutController < ActionController::Base
+class AboutController < ApplicationController
 
-  def show
+  # layout 'application'
+  def index
   end
 
 end
