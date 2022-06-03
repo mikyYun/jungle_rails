@@ -13,6 +13,7 @@ Rails.application.routes.draw do
   resources :orders, only: [:create, :show]
 
   get '/about', to: 'about#show'
+# match 'about' => 'about#show', :via => :get
 
   namespace :admin do
     root to: 'dashboard#show'
@@ -20,6 +21,13 @@ Rails.application.routes.draw do
     resources :categories, only: [:new, :create, :index]
   end
 
+  resources :users, only: [:create, :show]
+  get "/signup", to: "users#new"
+  get "/login", to: "sessions#new"
+  post "/sessions", to: "sessions#create"
+  delete "/sessions", to: "sessions#destroy"
+
+  # end
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
