@@ -29,6 +29,7 @@ form.button_to {
   display: inline;
 }
 
+
 sold-out {
   display: flex;
   justify-content: center;
@@ -100,7 +101,7 @@ sold-out {
 }
 
 .sticky-nav {
-  background: green;
+  background: rgb(167, 145, 162);
   position: sticky;
   top: 0;
   z-index: 900;
