@@ -44,14 +44,14 @@ main section.categories-show {
 
       &:hover {
         transition: all 150ms linear;
-        background-color: rgba(0, 130, 29, 0.7);
+        background-color: rgb(167, 145, 162);
         h1 {
           color: white;
         }
 
         button {
           background: white;
-          color: rgba(0, 130, 29, 0.7);
+          color: rgb(167, 145, 162);
         }
       }
       img {
@@ -67,7 +67,7 @@ main section.categories-show {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        color: rgba(0, 130, 29, 0.7);
+        color: rgb(167, 145, 162);
         font-weight: 700;
         font-family: "Montserrat";
         span {
@@ -89,7 +89,7 @@ main section.categories-show {
           min-width: 110px;
           padding-left: 1em;
           padding-right: 1em;
-          background-color: rgba(0, 130, 29, 0.7);
+          background-color: rgb(167, 145, 162);
           color: white;
         }
       }
